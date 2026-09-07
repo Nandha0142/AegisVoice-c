@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './', // Ensures assets are loaded relative to repository root for GitHub Pages
+  base: '/AegisVoice-c/', // Configured specifically for GitHub Pages repository subdirectory
   plugins: [react()],
   server: {
     port: 3000,
